@@ -43,6 +43,7 @@ get_header();
       </div>
     </div>
   </div>
+  <div class="clearfix"></div>
 </div>
 
 <main class="text-center">
@@ -50,26 +51,26 @@ get_header();
   </div>
   <div class="mt-100vh">
     <a id="a01" name="a01"></a>
-    <div class="row align-items-center table02 bg-black-02">
+    <div class="d-flex align-items-center table02 bg-black-02">
       <div class="text-center padding01">
-        <h2 class="text07">MESSAGE</h>
-          <p class="text08">メッセージ</p>
-          <img class="img01" src="/wp-content/themes/amorphy/template/images/arrow01.svg" alt="" border="0" />
-          <h2 class="text01">
-            常にベストな提案ができる企業でありたい。
-          </h2>
-          <p class="text02 text-left">
-            IT技術の進歩とデバイスの普及、多様化により人々のライフスタイルが劇的に変化し、これからますます加速していく時代。そのような社会において当社は、クライアント様のご要望に最適かつ柔軟なご提案をするために、新たなツールを生みだす「開発力」、ビジネスを加速させる「革新力」、迅速に実現させる「解決力」を携えた企業でありたいと考えております。「ITの力で、驚きと感動をー」。顧客様にとって、常にベストなご提案ができることを我々の最重要ミッションと考え、日々業務に取り組んでおります。
-          </p>
-          <a href="/company">
-            <button class="button01" name="buttonName" type="button">企業情報をみる</button>
-          </a>
+        <h2 class="text07">MESSAGE</h2>
+        <p class="text08">メッセージ</p>
+        <img class="img01" src="/wp-content/themes/amorphy/template/images/arrow01.svg" alt="" border="0" />
+        <h2 class="text01">
+          常にベストな提案ができる企業でありたい。
+        </h2>
+        <p class="text02 text-left">
+          IT技術の進歩とデバイスの普及、多様化により人々のライフスタイルが劇的に変化し、これからますます加速していく時代。そのような社会において当社は、クライアント様のご要望に最適かつ柔軟なご提案をするために、新たなツールを生みだす「開発力」、ビジネスを加速させる「革新力」、迅速に実現させる「解決力」を携えた企業でありたいと考えております。「ITの力で、驚きと感動をー」。顧客様にとって、常にベストなご提案ができることを我々の最重要ミッションと考え、日々業務に取り組んでおります。
+        </p>
+        <a href="/company">
+          <button class="button01" name="buttonName" type="button">企業情報をみる</button>
+        </a>
       </div>
     </div>
   </div>
 
-  <div class="row table02">
-    <div class="col text-center h-100 bg-box2">
+  <div class="table02">
+    <div class="text-center h-100 bg-box2">
       <div class="box2 h-100 d-flex align-items-center justify-content-between">
         <div class="w-100">
           <h2 class="text07">
@@ -79,7 +80,7 @@ get_header();
             事業内容
           </p>
           <img class="img05" src="/wp-content/themes/amorphy/template/images/arrow03.svg" alt="" border="0" />
-          <div class="row justify-content-between" id="index-box-4">
+          <div class="d-flex flex-wrap justify-content-between" id="index-box-4">
             <div class="item padding02 d-flex justify-content-center">
               <div>
                 <a href="/service#a01">
