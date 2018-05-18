@@ -13,4 +13,4 @@ package-lock.json
 yarn.lock
 yarn-error.log
 
-wwp-config.php
+wp-config.php
