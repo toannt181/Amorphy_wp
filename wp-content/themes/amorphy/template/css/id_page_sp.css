@@ -1,0 +1,5 @@
+#logo3 { display: none; }
+#pagetop { display: none; }
+#back1 { height: 100%; width: 100%; left: 0; bottom: 0; right: 0; top: 0; position: fixed; z-index: 0; visibility: visible; }
+#contents1 { height: auto; width: 100%; left: 0; top: 64px; position: absolute; visibility: visible; }
+#back2 { height: 64px; width: 66px; top: 0; position: fixed; right: 0; visibility: visible; }

@@ -1,0 +1,7 @@
+#camera_wrap_4 { background-color: #7a0000; position: absolute; top: 0; left: 0; right: 0; bottom: 0; margin:0 auto; width:100%; height:100%; visibility: visible; }
+#logo2 { height: auto; width: auto; left: 0; top: 0; position: fixed; z-index: 10001; visibility: visible; }
+#pagetop { height: auto; width: auto; bottom: 0; right: 0; position: fixed; visibility: visible; }
+#back1 { height: 100%; width: 100%; left: 0; bottom: 0; right: 0; top: 0; position: fixed; z-index: 0; visibility: visible; }
+#contents1 { height: auto; width: 100%; left: 0; top: 100%; position: absolute; visibility: visible; }
+#back2 { height: 64px; width: 66px; top: 0; position: fixed; right: 0; visibility: visible; }
+#logosp { display: none; }
