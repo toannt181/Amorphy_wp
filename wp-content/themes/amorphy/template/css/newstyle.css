@@ -98,6 +98,7 @@ h5 {
   .m-mt8 {
     margin-top: 8px;
   }
+  #logo3 { display: none !important; }
 }
 
 .box2 {
