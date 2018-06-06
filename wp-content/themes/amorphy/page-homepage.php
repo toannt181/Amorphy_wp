@@ -194,6 +194,7 @@ get_header();
 				<div class="item padding04">
 					<div class="img02">
 						<div class="d-flex align-items-center flex-column">
+            <a href="<?php echo esc_url( get_permalink() ) ?>" rel="bookmark">
 							<h3 class="text11">
 							<?php echo get_the_date('Y-m-d'); ?>
 							</h3>
@@ -206,6 +207,7 @@ get_header();
 								print $content;
 							?>
 							</p>
+            </a>
 						</div>
 					</div>
 				</div>

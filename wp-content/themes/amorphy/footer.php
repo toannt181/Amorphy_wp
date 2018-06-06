@@ -110,40 +110,35 @@
           </div>
         </button>
         <div class="nav-container">
-          <ul class="nav-menu">
+          <ul class="nav-menu text-center">
             <li class="menu-item">
               <a href="/homepage" class="menu-link">
-                <center>
-                  <img class="img02" src="<?php echo $template_img_url ?>/images/bt01.svg" alt="ホーム" border="0">
-                </center>
+                <img class="img02" src="<?php echo $template_img_url ?>/images/bt01.svg" alt="ホーム" border="0">
               </a>
             </li>
             <li class="menu-item">
               <a href="/company" class="menu-link">
-                <center>
-                  <img class="img02" src="<?php echo $template_img_url ?>/images/bt02.svg" alt="企業情報" border="0">
-                </center>
+                <img class="img02" src="<?php echo $template_img_url ?>/images/bt02.svg" alt="企業情報" border="0">
               </a>
             </li>
             <li class="menu-item">
               <a href="/service" class="menu-link">
-                <center>
-                  <img class="img02" src="<?php echo $template_img_url ?>/images/bt03.svg" alt="事業内容" border="0">
-                </center>
+                <img class="img02" src="<?php echo $template_img_url ?>/images/bt03.svg" alt="事業内容" border="0">
               </a>
             </li>
             <li class="menu-item">
               <a href="/news" class="menu-link">
-                <center>
-                  <img class="img02" src="<?php echo $template_img_url ?>/images/bt04.svg" alt="新着情報" border="0">
-                </center>
+                <img class="img02" src="<?php echo $template_img_url ?>/images/bt04.svg" alt="新着情報" border="0">
+              </a>
+            </li>
+            <li class="menu-item">
+              <a href="http://amorphy.jp/vr" class="menu-link">
+                <img width="60" class="img02" src="<?php echo $template_img_url ?>/images/bt06.svg" alt="新着情報" border="0">
               </a>
             </li>
             <li class="menu-item">
               <a href="/contact" class="menu-link">
-                <center>
-                  <img class="img02" src="<?php echo $template_img_url ?>/images/bt05.svg" alt="お問合せ" border="0">
-                </center>
+                <img class="img02" src="<?php echo $template_img_url ?>/images/bt05.svg" alt="お問合せ" border="0">
               </a>
             </li>
           </ul>
