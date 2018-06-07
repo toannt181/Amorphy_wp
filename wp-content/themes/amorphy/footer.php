@@ -70,7 +70,15 @@
 <?php $template_img_url =  get_template_directory_uri() . '/template' ?>
 
 <div class="box3 text-center">
-  <?php the_field('footer_field', 'option'); ?>
+<img class="img08" src="/wp-content/themes/amorphy/template/images/logo_e.svg" alt="株式会社アモルフィ" border="0" />
+  <p class="text15 inline-block">
+    株式会社アモルフィ｜ 〒060-0809 札幌市北区北9条西3丁目15クラークノルド1F　TEL.011-708-7610　FAX.011-708-7611
+    <br />
+  </p>
+  <p class="text02">
+    <br /> © amorphy co.,ltd.
+  </p>
+
 </div>
 
 <div id="back2">
@@ -80,7 +88,7 @@
 
 <div id="logo3" class="<?php if ( is_front_page() ) echo 'logo2'; ?>">
   <a href="/homepage" class="logo3">
-  <?php the_field('header_field', 'option'); ?>
+  <img id="logo_m" class="img03" src="/wp-content/themes/amorphy/template/images/logo_m.svg" alt="株式会社アモルフィ" name="logo_m" border="0"/>
   </a>
 </div>
 
@@ -94,7 +102,7 @@
 </div>
 
 <div id="logosp">
-  <?php the_field('header_mobile_field', 'option'); ?>
+<img class="img07" src="/wp-content/themes/amorphy/template/images/logo_sp.svg" alt="" border="0" />
 </div>
 
 <footer>
@@ -132,7 +140,7 @@
               </a>
             </li>
             <li class="menu-item">
-              <a href="http://amorphy.jp/vr" class="menu-link">
+              <a href="/vr" class="menu-link">
                 <img width="60" class="img02" src="<?php echo $template_img_url ?>/images/bt06.svg" alt="新着情報" border="0">
               </a>
             </li>
